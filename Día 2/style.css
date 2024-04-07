@@ -53,7 +53,7 @@ img {
 .heading::after{
     content: '';
     position: absolute;
-    width: 21px;
+    width: 101px;
     height: 18px;
     background-color: #5E9078;
     left: 191px;
@@ -84,6 +84,14 @@ img {
     background-color: white;
 }
 .French-A1{
+    width: 90%;
+    background-color: white;
+}
+.web{
+    width: 90%;
+    background-color: white;
+}
+.gra{
     width: 90%;
     background-color: white;
 }
