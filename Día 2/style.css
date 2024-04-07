@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+body{
+    background-image:#5E9078;
+    height: 120vh;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+*{
+    margin: 0px; padding: 0px; font-family: "Montserrat", sans-serif;
+}
+.main{
+    background-image: white;
+    height: auto;
+    width: 650px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+.left{
+    background-color: #92C6AD;
+    width: 265px;
+    height: 900px;
+    float: left;
+}
+.right{
+    width: 450px;
+    float: left;
+}
+img {
+    height: 250px;
+    width: 200px;
+    background-color: #92C6AD;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+.profile-image img{
+    width: 200%;
+    border-radius: 50%;
+}
+.box-1{
+    position: relative;
+}
+.heading{
+    background-color: #5E9078;
+    padding: 10px;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    margin-right: -15px;
+}
+.heading::after{
+    content: '';
+    position: absolute;
+    width: 21px;
+    height: 18px;
+    background-color: #5E9078;
+    left: 191px;
+    top: 26px;
+    transform: translate(56deg);
+    z-index: -1;
+}
+.p1{
+    padding: 10px 10px;
+    font-size: 10px;
+}
+.icons1{
+    font-size: 16px!important;
+    padding-right: 10px!important;
+    vertical-align: sub;
+}
+.skill-container{
+    width: 90%;
+    background-color: whitesmoke;
+    margin: 0px 10px;
+}
+.Spanish-Native{
+    width: 90%;
+    background-color: white;
+}
+.English-C1{
+    width: 90%;
+    background-color: white;
+}
+.French-A1{
+    width: 90%;
+    background-color: white;
+}
