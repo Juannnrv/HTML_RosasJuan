@@ -1,0 +1,28 @@
+body{
+    background-color: greenyellow;
+    background-image: url("./imgs/escudo.gif");
+    background-repeat: repeat;
+    background-size: 2%;
+}
+.miHistoria{
+    background-color: rgba(0, 0, 0, 0.50);
+    width: 98vw;
+    height: 97vh;
+    border-radius: 1%;
+    
+}
+h1{
+    color: white;
+    opacity: 100%;
+    font-size: 100px;
+}
+#titulo{
+    text-align: center;
+    opacity: 100%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
