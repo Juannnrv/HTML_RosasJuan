@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+        <li>
+            <label for="name">Nombres y apellidos completos: </label>
+            <input type="text" id="name" name="user_name"/>
+        </li>
+        <li>
+            <label for="id">No. Cédula: </label>
+            <br>
+            <input type="number" id="id" name="user_id"/>
+        </li>
+        <li>
+            <label for="date">Fecha de Nacimiento: </label>
+            <input type="date" id="date" name="date" />
+        </li>
+        <li>
+            <label for="mail">Correo personal: </label>
+            <input type="email" id="mail" name="user_mail" />
+        </li>
+        <li>
+            <label for="phone">No. teléfono celular: </label>
+            <input type="tel" id="tel" name="user_phone" />
+        </li>
+        <p class="button">
+            <button type="submit">Finalizar</button>
+        </p>
+        </ul>
+    </form>
+</body>
+</html>
