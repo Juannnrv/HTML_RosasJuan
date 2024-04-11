@@ -1,4 +1,5 @@
 
+/* Estilos base */
 form {
     margin: 0 auto;
     width: 90%; /* Se ajusta al 90% del ancho disponible */
@@ -7,6 +8,7 @@ form {
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: #f9f9f9;
+    transition: all 0.3s ease; /* Animación de transición */
 }
 
 ul {
@@ -25,6 +27,11 @@ label {
     text-align: left;
     font-weight: bold;
     color: #333;
+    transition: all 0.3s ease; /* Animación de transición */
+}
+
+legend{
+    color: #007bff;
 }
 
 input,
@@ -37,6 +44,7 @@ select {
     border-radius: 5px;
     padding: 8px;
     margin-top: 5px;
+    transition: all 0.3s ease; /* Animación de transición */
 }
 
 input:focus,
@@ -62,8 +70,13 @@ button {
     background-color: #007bff;
     color: #fff;
     cursor: pointer;
+    transition: all 0.3s ease; /* Animación de transición */
 }
 
 button:hover {
     background-color: #0056b3;
+    transform: scale(1.05); /* Escala del botón al pasar el mouse */
 }
+
+
+
